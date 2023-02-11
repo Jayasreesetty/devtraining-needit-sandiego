@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Sofware Installation">db97b2a497702110a4913d400153afbe</cat_item>
+        <cat_item display_value="Expense Reimbursement &#9;&#9;">a011529297302110a4913d400153af0c</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
@@ -15,29 +15,43 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Auto Populate Requested By</name>
+        <name>Auto Populate Claim date</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	g_form.setValue('requested_by', g_user.userID);
-	g_form.setValue('requested_for', g_user.userID);
-   
+	
+	var today = new Date();
+	var dd = today.getDate();
+	if (dd <10){
+		dd = '0'+dd;
+	}
+   var mm = today.getMonth()+1;
+	if(mm <10){
+		mm = '0' + mm;
+	}
+	var yyyy = today.getFullYear();
+	
+	var today1 = yyyy + '-' + mm + '-' + dd;
+	
+	g_form.setValue('claim_date', today1);
+	g_form.setReadOnly('claim_date', true);
+	
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-01 04:31:31</sys_created_on>
+        <sys_created_on>2023-02-10 03:55:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4be6583097f42110a4913d400153af99</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Auto Populate Requested By</sys_name>
+        <sys_id>ad856eeb97b42110a4913d400153af1f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Auto Populate Claim date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>catalog_script_client_4be6583097f42110a4913d400153af99</sys_update_name>
-        <sys_updated_by>ajay</sys_updated_by>
-        <sys_updated_on>2023-02-04 16:48:08</sys_updated_on>
+        <sys_update_name>catalog_script_client_ad856eeb97b42110a4913d400153af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-10 04:33:27</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

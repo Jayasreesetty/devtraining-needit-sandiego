@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>800</order>
+        <sc_cat_item display_value="Sofware Installation">db97b2a497702110a4913d400153afbe</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>ajay</sys_created_by>
+        <sys_created_on>2023-02-04 17:20:41</sys_created_on>
+        <sys_id>4e84227597702110a4913d400153afb4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>it_to_it.Sofware Installation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>io_set_item_4e84227597702110a4913d400153afb4</sys_update_name>
+        <sys_updated_by>ajay</sys_updated_by>
+        <sys_updated_on>2023-02-04 17:21:35</sys_updated_on>
+        <variable_set display_value="it_to_it">b682f39a4f334200086eeed18110c791</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>74aed769dbcfd3c04c1ff70fbf961950</instance_id>
+        <instance_name>dev63327</instance_name>
+        <name>io_set_item_4e84227597702110a4913d400153afb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>800</order><sc_cat_item display_value="Sofware Installation">db97b2a497702110a4913d400153afbe</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>ajay</sys_created_by><sys_created_on>2023-02-04 17:20:41</sys_created_on><sys_id>4e84227597702110a4913d400153afb4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>it_to_it.Sofware Installation</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>io_set_item_4e84227597702110a4913d400153afb4</sys_update_name><sys_updated_by>ajay</sys_updated_by><sys_updated_on>2023-02-04 17:21:35</sys_updated_on><variable_set display_value="it_to_it">b682f39a4f334200086eeed18110c791</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-21026174</payload_hash>
+        <record_name>it_to_it.Sofware Installation</record_name>
+        <reverted_from/>
+        <source>9fead67d97302110a4913d400153af08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ajay</sys_created_by>
+        <sys_created_on>2023-02-04 17:21:36</sys_created_on>
+        <sys_id>d3b422f597702110a4913d400153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1861d729d000000001</sys_recorded_at>
+        <sys_updated_by>ajay</sys_updated_by>
+        <sys_updated_on>2023-02-04 17:21:36</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>dbb422f5f4702110cf47cc376290fb95</update_guid>
+        <update_guid_history>dbb422f5f4702110cf47cc376290fb95:-21026174,4a8422f575702110c0d83acb6558fecd:1755230536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="it_to_it.Sofware Installation">5749e63d97702110a4913d400153af7f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ajay</sys_created_by>
+        <sys_created_on>2023-02-04 17:41:32</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>7cd75320850c4fa6bb129ee0f2195541</sys_id>
+        <sys_metadata>4e84227597702110a4913d400153afb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>it_to_it.Sofware Installation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>io_set_item_4e84227597702110a4913d400153afb4</sys_update_name>
+        <sys_update_version display_value="io_set_item_4e84227597702110a4913d400153afb4">d3b422f597702110a4913d400153af96</sys_update_version>
+        <sys_updated_by>ajay</sys_updated_by>
+        <sys_updated_on>2023-02-04 17:41:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

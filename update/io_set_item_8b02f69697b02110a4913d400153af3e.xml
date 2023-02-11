@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>800</order>
+        <sc_cat_item display_value="Expense Reimbursement &#9;&#9;">a011529297302110a4913d400153af0c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 07:36:42</sys_created_on>
+        <sys_id>8b02f69697b02110a4913d400153af3e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add Expenses.Expense Reimbursement 		</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>io_set_item_8b02f69697b02110a4913d400153af3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-10 03:19:44</sys_updated_on>
+        <variable_set display_value="Add Expenses">d5d1f69697b02110a4913d400153af36</variable_set>
+    </io_set_item>
+</record_update>
